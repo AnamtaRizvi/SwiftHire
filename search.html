@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Candidate Search</title>
+</head>
+
+<body>
+    <header>
+        <h1>Recruitment Solution</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="search.html">Search Candidates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="search-form">
+    <h2>Search Candidates</h2>
+    <form id="search-form">
+        <label for="location">Location:</label>
+        <input type="text" id="location">
+
+        <label for="job-role">Job Role:</label>
+        <input type="text" id="job-role">
+
+        <button type="submit">Search</button>
+    </form>
+</section>
+
+<section class="candidate-list">
+    <h2>Candidate List</h2>
+    <ul id="candidate-list">
+        <!-- Candidates will be dynamically added here -->
+    </ul>
+</section>
+
+    <footer>
+        <p>&copy; 2023 Recruitment Solution. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
